@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 32px 130px 0 130px;
+}
+
+li {
+    display: inline;
+    margin-right: 44px;
+}
+
+li:last-child {
+    margin-right: 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
