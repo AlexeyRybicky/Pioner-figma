@@ -20,3 +20,13 @@ a {
     text-decoration: none;
     font-size: 16px;
 }
+
+.hero {
+    width: 1180px;
+    height: 616px;
+}
+
+.about {
+    width: 1180px;
+    height: 602px;
+}
