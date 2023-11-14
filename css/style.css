@@ -2,8 +2,37 @@
     box-sizing: border-box;
 }
 
+:root {
+    --content-width: 1180px;
+    --container-offset: 15px;
+    --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+    --gap: 20px
+}
+
+
 body {
     margin: 32px 130px 0 130px;
+}
+
+.header__top {
+    padding: 35px 0 35px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-header__logo {
+    width: 180px;
+    height: 38px;
+}
+
+.header__contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: var(--gap);
 }
 
 li {
@@ -29,4 +58,8 @@ a {
 .about {
     width: 1180px;
     height: 602px;
+}
+
+nav {
+    margin-bottom: 100px;
 }
